@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="uit_majors">
+        <item>Chưa chọn ngành</item>
+        <item>Công nghệ thông tin</item>
+        <item>Hệ thống thông tin</item>
+        <item>Khoa học máy tính</item>
+        <item>Kỹ thuật phần mềm</item>
+        <item>Kỹ thuật máy tính</item>
+        <item>Mạng máy tính và truyền thông dữ liệu</item>
+        <item>An toàn thông tin</item>
+        <item>Thương mại điện tử</item>
+        <item>Khoa học dữ liệu</item>
+        <item>Trí tuệ nhân tạo</item>
+        <item>Thiết kế vi mạch</item>
+        <item>Truyền thông đa phương tiện</item>
+    </string-array>
+</resources>

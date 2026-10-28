@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="vi">
+    <string name="app_name">BT2 · Sinh viên</string>
+    <string name="screen_title">Danh sách sinh viên</string>
+    <string name="add_student">Thêm sinh viên</string>
+    <string name="edit_student">Sửa sinh viên</string>
+    <string name="student_id">MSSV: %1$s</string>
+    <string name="empty_students">Chưa có sinh viên.</string>
+    <string name="code_hint">Mã số sinh viên</string>
+    <string name="name_hint">Họ và tên</string>
+    <string name="code_label">Mã số sinh viên</string>
+    <string name="name_label">Họ và tên</string>
+    <string name="name_required">Vui lòng nhập họ tên.</string>
+    <string name="code_invalid">MSSV gồm 1–20 ký tự: chữ, số, dấu gạch nối hoặc gạch dưới.</string>
+    <string name="duplicate_code">Mã số sinh viên này đã tồn tại.</string>
+    <string name="fixed_code_note">Mã số sinh viên được giữ cố định khi chỉnh sửa.</string>
+    <string name="save">Lưu</string>
+    <string name="saving">Đang lưu…</string>
+    <string name="back">Quay lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa sinh viên</string>
+    <string name="delete_title">Xóa sinh viên?</string>
+    <string name="delete_message">Xóa %1$s (%2$s)?</string>
+    <string name="saved">Đã lưu sinh viên.</string>
+    <string name="deleted">Đã xóa sinh viên.</string>
+    <string name="missing_student">Sinh viên không còn tồn tại.</string>
+    <string name="database_error">Không thể truy cập dữ liệu. Vui lòng thử lại.</string>
+    <string name="details_title">Thông tin sinh viên</string>
+    <string name="major_label">Ngành học</string>
+    <string name="major_not_selected">Chưa chọn ngành</string>
+</resources>

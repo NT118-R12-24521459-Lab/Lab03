@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/page">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:minHeight="48dp"
+        android:text="@string/back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/editorTitle"
+                style="@style/LabTitle"
+                android:text="@string/add_student"
+                android:textSize="24sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/codeField"
+                style="@style/LabField"
+                android:hint="@string/code_hint">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/codeInput"
+                    style="@style/LabInput"
+                    android:inputType="textVisiblePassword"
+                    android:maxLength="20" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameField"
+                style="@style/LabField"
+                android:hint="@string/name_hint">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameInput"
+                    style="@style/LabInput"
+                    android:inputType="textCapWords"
+                    android:maxLength="100" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/major_label"
+                android:textColor="@color/muted"
+                android:labelFor="@id/majorInput" />
+
+            <Spinner
+                android:id="@+id/majorInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:entries="@array/uit_majors"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="12dp"
+        android:minHeight="48dp"
+        android:text="@string/save" />
+</LinearLayout>

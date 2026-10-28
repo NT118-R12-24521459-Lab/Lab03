@@ -1,0 +1,9 @@
+<resources>
+    <color name="primary">#A9C7FF</color>
+    <color name="page">#101820</color>
+    <color name="surface">#1A2633</color>
+    <color name="ink">#E8EFF7</color>
+    <color name="muted">#B3C1D1</color>
+    <color name="outline">#415365</color>
+    <color name="danger">#FFB4AB</color>
+</resources>

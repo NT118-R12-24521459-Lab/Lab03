@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="vi">
+    <string name="app_name">BT1 · Danh bạ</string>
+    <string name="screen_title">Danh sách Contacts</string>
+    <string name="empty_contacts">Chưa có Contact nào.</string>
+    <string name="deleted">Đã xóa liên hệ.</string>
+    <string name="missing_contact">Liên hệ không còn tồn tại.</string>
+    <string name="database_error">Không thể truy cập dữ liệu. Vui lòng thử lại.</string>
+</resources>

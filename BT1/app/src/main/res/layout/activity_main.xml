@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/page">
+
+    <TextView
+        style="@style/LabBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/screen_title"
+        android:textColor="@color/ink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/contactList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/outline"
+            android:dividerHeight="1dp"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/emptyView"
+            style="@style/LabBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="24dp"
+            android:text="@string/empty_contacts"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>
